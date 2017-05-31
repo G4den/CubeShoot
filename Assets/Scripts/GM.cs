@@ -99,7 +99,6 @@ public class GM : MonoBehaviour
 
     void Start()
     {
-        Screen.fullScreen = !Screen.fullScreen;
         ranomizeColor();
         color = NextColor;
         Map.color = color;
